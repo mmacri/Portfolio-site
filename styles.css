@@ -54,6 +54,12 @@ a {
   color: #0073a8;
 }
 
+#sideNav ul li a.active {
+  background-color: #009ddc;
+  color: #ffffff;
+  font-weight: 600;
+}
+
 #sideNav .resume-link a {
   display: block;
   margin-top: 2rem;
