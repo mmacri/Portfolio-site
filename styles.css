@@ -505,6 +505,25 @@ a {
   color: #0073a8;
 }
 
+/* Tablet adjustments */
+@media (max-width: 1024px) {
+  .content {
+    padding: 1.75rem;
+  }
+
+  .section {
+    padding: 3rem 0;
+  }
+
+  .section-header h2 {
+    font-size: 1.8rem;
+  }
+
+  .intro h1 {
+    font-size: 2.2rem;
+  }
+}
+
 /* Mobile navigation */
 .menu-toggle {
   display: none;
@@ -535,5 +554,53 @@ a {
   .content {
     margin-left: 0;
     padding: 1.5rem;
+  }
+}
+
+/* Small tablet adjustments */
+@media (max-width: 640px) {
+  .intro h1 {
+    font-size: 1.9rem;
+  }
+
+  .section {
+    padding: 2.5rem 0;
+  }
+
+  .section-header h2 {
+    font-size: 1.5rem;
+  }
+
+  .metrics,
+  .approach .principles,
+  .framework-steps,
+  .results-grid,
+  .connect .help-options,
+  .resource-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Mobile adjustments */
+@media (max-width: 480px) {
+  body {
+    font-size: 0.9rem;
+  }
+
+  .content {
+    padding: 1rem;
+  }
+
+  .section {
+    padding: 2rem 0;
+  }
+
+  .intro h1 {
+    font-size: 1.6rem;
+  }
+
+  .cta-buttons {
+    flex-direction: column;
+    gap: 0.75rem;
   }
 }
