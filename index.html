@@ -3,32 +3,42 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="description" content="Professional portfolio highlighting technical leadership, scalable solutions, and strategic growth for enterprise organizations."/>
-  <title>Professional Portfolio</title>
-  <meta property="og:title" content="Professional Portfolio"/>
-  <meta property="og:description" content="Professional portfolio highlighting technical leadership, scalable solutions, and strategic growth for enterprise organizations."/>
-  <meta property="og:image" content="https://example.com/portfolio-og-image.jpg"/>
+  <meta name="description" content="Mike Macri - Technical Sales Leader, Solution Architect, and Revenue Operations Expert helping enterprise organizations scale through strategic partnerships and technical excellence."/>
+  <title>Mike Macri - Technical Sales Leader & Solution Architect</title>
+  <meta property="og:title" content="Mike Macri - Technical Sales Leader & Solution Architect"/>
+  <meta property="og:description" content="Technical Sales Leader, Solution Architect, and Revenue Operations Expert helping enterprise organizations scale through strategic partnerships and technical excellence."/>
+  <meta property="og:image" content="https://mikemacri.com/assets/mike-macri-og.jpg"/>
   <meta name="twitter:card" content="summary_large_image"/>
-  <meta name="twitter:title" content="Professional Portfolio"/>
-  <meta name="twitter:description" content="Professional portfolio highlighting technical leadership, scalable solutions, and strategic growth for enterprise organizations."/>
-  <meta name="twitter:image" content="https://example.com/portfolio-og-image.jpg"/>
-  <!-- Simple reset and fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet"/>
+  <meta name="twitter:title" content="Mike Macri - Technical Sales Leader & Solution Architect"/>
+  <meta name="twitter:description" content="Technical Sales Leader, Solution Architect, and Revenue Operations Expert helping enterprise organizations scale through strategic partnerships and technical excellence."/>
+  <meta name="twitter:image" content="https://mikemacri.com/assets/mike-macri-og.jpg"/>
+  <!-- Fonts and Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
   <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
-  <button id="navToggle" class="menu-toggle" aria-expanded="false" aria-controls="sideNav" aria-label="Toggle navigation">&#9776;</button>
+  <button id="navToggle" class="menu-toggle" aria-expanded="false" aria-controls="sideNav" aria-label="Toggle navigation">
+    <i class="fas fa-bars"></i>
+  </button>
+  
   <!-- Fixed side navigation -->
   <nav id="sideNav" aria-label="Primary">
+    <div class="nav-header">
+      <img src="https://mikemacri.com/assets/mike-macri-logo.png" alt="Mike Macri" class="nav-logo"/>
+    </div>
     <ul>
-      <li><a href="#intro">Intro</a></li>
-      <li><a href="#background">Background</a></li>
-      <li><a href="#work">Work</a></li>
-      <li><a href="#approach">Approach</a></li>
-      <li><a href="#connect">Connect</a></li>
+      <li><a href="#intro"><i class="fas fa-home"></i> Home</a></li>
+      <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+      <li><a href="#experience"><i class="fas fa-briefcase"></i> Experience</a></li>
+      <li><a href="#expertise"><i class="fas fa-cogs"></i> Expertise</a></li>
+      <li><a href="#approach"><i class="fas fa-lightbulb"></i> Approach</a></li>
+      <li><a href="#connect"><i class="fas fa-envelope"></i> Connect</a></li>
     </ul>
     <div class="resume-link">
-      <a href="#">Resume</a>
+      <a href="https://mikemacri.com/resume" target="_blank">
+        <i class="fas fa-download"></i> Resume
+      </a>
     </div>
   </nav>
 
@@ -37,79 +47,269 @@
   <main class="content">
     <!-- Intro section -->
     <section id="intro" class="section intro">
-      <div class="intro-text">
-        <h1>Building <span class="highlight">high‑performing teams</span> and <span class="highlight">scalable solutions</span> for enterprise growth.</h1>
-        <p>Transforming technical complexity into measurable business results for enterprise organizations worldwide.</p>
-        <div class="metrics">
-          <div class="metric-item"><strong>15+</strong><span>Years Experience</span></div>
-          <div class="metric-item"><strong>$50M+</strong><span>Revenue Generated</span></div>
-          <div class="metric-item"><strong>100+</strong><span>Projects Delivered</span></div>
-          <div class="metric-item"><strong>500K+</strong><span>Users Impacted</span></div>
+      <div class="intro-content">
+        <div class="intro-text">
+          <h1>Scaling <span class="highlight">technical sales teams</span> and <span class="highlight">enterprise solutions</span> that drive measurable growth.</h1>
+          <p class="intro-subtitle">I help B2B SaaS companies build high-performing technical sales organizations, architect scalable solutions, and create strategic partnerships that accelerate revenue growth.</p>
+          <div class="intro-stats">
+            <div class="stat-item">
+              <i class="fas fa-chart-line"></i>
+              <div>
+                <strong>15+</strong>
+                <span>Years Experience</span>
+              </div>
+            </div>
+            <div class="stat-item">
+              <i class="fas fa-dollar-sign"></i>
+              <div>
+                <strong>$100M+</strong>
+                <span>Revenue Generated</span>
+              </div>
+            </div>
+            <div class="stat-item">
+              <i class="fas fa-users"></i>
+              <div>
+                <strong>50+</strong>
+                <span>Teams Built</span>
+              </div>
+            </div>
+            <div class="stat-item">
+              <i class="fas fa-handshake"></i>
+              <div>
+                <strong>200+</strong>
+                <span>Partnerships</span>
+              </div>
+            </div>
+          </div>
+          <div class="cta-buttons">
+            <a class="btn primary" href="#experience">
+              <i class="fas fa-arrow-right"></i> View My Work
+            </a>
+            <a class="btn secondary" href="#connect">
+              <i class="fas fa-calendar"></i> Schedule a Call
+            </a>
+          </div>
         </div>
-        <div class="cta-buttons">
-          <a class="btn primary" href="#work">View My Work</a>
-          <a class="btn secondary" href="#connect">Schedule a Call</a>
+        <div class="intro-image">
+          <img src="https://mikemacri.com/assets/mike-macri-profile.jpg" alt="Mike Macri - Technical Sales Leader" class="profile-photo"/>
+          <div class="image-decoration"></div>
         </div>
       </div>
     </section>
 
-    <!-- Background section -->
-    <section id="background" class="section background">
+    <!-- About section -->
+    <section id="about" class="section about">
       <div class="section-header">
-        <h2>From Technical Complexity to Business Clarity</h2>
+        <h2><i class="fas fa-user-circle"></i> About Mike Macri</h2>
+        <p>From technical complexity to business clarity</p>
       </div>
-      <div class="what-i-bring">
-        <h3>What I Bring</h3>
-        <ul class="bring-list">
-          <li><strong>Technical Sales Leadership</strong><br/>Building and leading teams that understand both technology and business impact</li>
-          <li><strong>Enterprise Solution Architecture</strong><br/>Designing scalable solutions that serve hundreds of thousands of users</li>
-          <li><strong>Strategic Partnership Development</strong><br/>Creating ecosystem relationships that expand market reach and drive revenue</li>
-          <li><strong>Revenue Operations Excellence</strong><br/>Optimizing processes and systems to enable predictable, scalable growth</li>
-        </ul>
-      </div>
-      <div class="my-journey">
-        <h3>My Journey</h3>
-        <p>My career began as a solutions engineer, working deep in the technical details of complex systems. What I discovered was that my true calling wasn't building great technology—it was helping organizations understand how technology could transform their business.</p>
-        <p>Today, I help enterprise organizations build the teams, processes and partnerships that turn technical innovation into sustainable revenue growth.</p>
-        <div class="career-highlights">
-          <h3>Career Highlights</h3>
-          <ul>
-            <li><span class="year-range">2020 – Present:</span> Senior Technical Sales Leader – Led enterprise cloud solution initiatives</li>
-            <li><span class="year-range">2017 – 2020:</span> Solution Engineering Manager – Scaled technical teams and processes</li>
-            <li><span class="year-range">2012 – 2017:</span> Principal Solutions Engineer – Architected solutions for enterprise clients</li>
-            <li><span class="year-range">2009 – 2012:</span> Technical Sales Engineer – Established foundation in enterprise sales</li>
-          </ul>
+      
+      <div class="about-content">
+        <div class="about-story">
+          <h3>My Story</h3>
+          <p>I started my career as a solutions engineer, diving deep into the technical details of complex enterprise systems. What I discovered was that my true passion wasn't just building great technology—it was helping organizations understand how technology could fundamentally transform their business.</p>
+          
+          <p>Over the past 15 years, I've evolved from individual contributor to technical sales leader, helping enterprise organizations build the teams, processes, and partnerships that turn technical innovation into sustainable revenue growth.</p>
+          
+          <p>Today, I specialize in scaling technical sales organizations for B2B SaaS companies, with a focus on enterprise solutions, strategic partnerships, and revenue operations excellence.</p>
+        </div>
+
+        <div class="core-strengths">
+          <h3>Core Strengths</h3>
+          <div class="strengths-grid">
+            <div class="strength-card">
+              <i class="fas fa-users-cog"></i>
+              <h4>Technical Sales Leadership</h4>
+              <p>Building and scaling high-performing technical sales teams that understand both technology and business impact</p>
+            </div>
+            <div class="strength-card">
+              <i class="fas fa-sitemap"></i>
+              <h4>Solution Architecture</h4>
+              <p>Designing enterprise-grade solutions that serve hundreds of thousands of users with reliability and scale</p>
+            </div>
+            <div class="strength-card">
+              <i class="fas fa-handshake"></i>
+              <h4>Strategic Partnerships</h4>
+              <p>Creating ecosystem relationships that expand market reach, drive co-innovation, and accelerate revenue</p>
+            </div>
+            <div class="strength-card">
+              <i class="fas fa-chart-bar"></i>
+              <h4>Revenue Operations</h4>
+              <p>Optimizing processes, systems, and metrics to enable predictable, scalable growth</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- Work section -->
-    <section id="work" class="section work">
+    <!-- Experience section with timeline -->
+    <section id="experience" class="section experience">
       <div class="section-header">
-        <h2>Projects That Delivered Results</h2>
-        <p>Each project represents a strategic initiative that delivered measurable, lasting impact for enterprise organizations.</p>
+        <h2><i class="fas fa-timeline"></i> Career Journey</h2>
+        <p>15+ years of progressive leadership in technical sales and solution architecture</p>
       </div>
-      <div class="projects">
-        <div class="project-card">
-          <h3>Enterprise Sales Team Transformation</h3>
-          <h4>Scaling from startup to enterprise</h4>
-          <p><strong>Project Overview:</strong> Transformed a growing technical sales organization into a high‑performing, scalable revenue engine capable of enterprise‑level growth.</p>
-          <p><strong>My Approach:</strong> Implemented data‑driven hiring and performance management systems, created repeatable sales methodology and training programs, established clear career progression paths, and standardized processes for forecasting, pipeline management and customer success.</p>
-          <p><strong>Key Results:</strong> 150% revenue growth achieved, 40% increase in average deal size, 90%+ employee retention rate, 50% reduction in sales cycle time.</p>
+      
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <i class="fas fa-rocket"></i>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-period">2020 – Present</div>
+            <h3>Senior Technical Sales Leader</h3>
+            <h4>Enterprise Cloud Solutions</h4>
+            <p>Leading enterprise cloud solution initiatives, building strategic partnerships, and scaling technical sales teams for high-growth B2B SaaS companies.</p>
+            <ul class="achievements">
+              <li><i class="fas fa-check-circle"></i> Scaled technical sales team from 5 to 25+ members</li>
+              <li><i class="fas fa-check-circle"></i> Generated $50M+ in new revenue through strategic partnerships</li>
+              <li><i class="fas fa-check-circle"></i> Improved sales cycle efficiency by 40%</li>
+              <li><i class="fas fa-check-circle"></i> Established partner ecosystem with 100+ technology vendors</li>
+            </ul>
+          </div>
         </div>
-        <div class="project-card">
-          <h3>Enterprise Cloud Architecture Program</h3>
-          <h4>Multi‑cloud strategy for scale</h4>
-          <p><strong>Project Overview:</strong> Designed and implemented a comprehensive cloud architecture program to enable scalable, secure and resilient enterprise applications.</p>
-          <p><strong>My Approach:</strong> Conducted cloud readiness assessments, developed standardized architecture blueprints, and led cross‑functional teams through implementation and training.</p>
-          <p><strong>Key Results:</strong> Reduced infrastructure costs by 30%, improved application uptime to 99.9%, and accelerated deployment times by 2×.</p>
+
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <i class="fas fa-users"></i>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-period">2017 – 2020</div>
+            <h3>Solution Engineering Manager</h3>
+            <h4>Team Leadership & Process Optimization</h4>
+            <p>Scaled technical teams and processes, implemented data-driven methodologies, and established repeatable frameworks for enterprise sales success.</p>
+            <ul class="achievements">
+              <li><i class="fas fa-check-circle"></i> Built and led team of 15+ solution engineers</li>
+              <li><i class="fas fa-check-circle"></i> Increased win rate from 25% to 45%</li>
+              <li><i class="fas fa-check-circle"></i> Reduced average sales cycle from 9 to 6 months</li>
+              <li><i class="fas fa-check-circle"></i> Implemented standardized demo and POC processes</li>
+            </ul>
+          </div>
         </div>
-        <div class="project-card">
-          <h3>Strategic Partnership Ecosystem</h3>
-          <h4>Building revenue‑generating alliances</h4>
-          <p><strong>Project Overview:</strong> Established a strategic partner network to co‑develop solutions, open new markets and drive mutual revenue growth.</p>
-          <p><strong>My Approach:</strong> Identified and onboarded key partners, crafted joint value propositions, and created governance frameworks and co‑selling programs.</p>
-          <p><strong>Key Results:</strong> Generated $20M+ in partner‑sourced revenue, expanded market reach by 50%, and strengthened joint solution pipeline.</p>
+
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <i class="fas fa-cogs"></i>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-period">2012 – 2017</div>
+            <h3>Principal Solutions Engineer</h3>
+            <h4>Enterprise Architecture & Client Success</h4>
+            <p>Architected complex solutions for Fortune 500 clients, led technical evaluations, and established best practices for enterprise implementations.</p>
+            <ul class="achievements">
+              <li><i class="fas fa-check-circle"></i> Designed solutions for 200+ enterprise clients</li>
+              <li><i class="fas fa-check-circle"></i> Achieved 95% customer satisfaction rating</li>
+              <li><i class="fas fa-check-circle"></i> Led technical evaluations for $10M+ deals</li>
+              <li><i class="fas fa-check-circle"></i> Developed reusable architecture patterns</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <i class="fas fa-seedling"></i>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-period">2009 – 2012</div>
+            <h3>Technical Sales Engineer</h3>
+            <h4>Foundation Building</h4>
+            <p>Established foundation in enterprise sales, developed technical expertise, and built relationships with key stakeholders across multiple industries.</p>
+            <ul class="achievements">
+              <li><i class="fas fa-check-circle"></i> Consistently exceeded quota by 120%+</li>
+              <li><i class="fas fa-check-circle"></i> Built expertise in cloud infrastructure and security</li>
+              <li><i class="fas fa-check-circle"></i> Developed long-term client relationships</li>
+              <li><i class="fas fa-check-circle"></i> Earned technical certifications in multiple platforms</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Expertise section -->
+    <section id="expertise" class="section expertise">
+      <div class="section-header">
+        <h2><i class="fas fa-star"></i> Areas of Expertise</h2>
+        <p>Specialized knowledge and proven results across key business functions</p>
+      </div>
+      
+      <div class="expertise-grid">
+        <div class="expertise-card">
+          <div class="expertise-icon">
+            <i class="fas fa-users-cog"></i>
+          </div>
+          <h3>Technical Sales Leadership</h3>
+          <div class="expertise-details">
+            <h4>What I Do:</h4>
+            <ul>
+              <li>Build and scale high-performing technical sales teams</li>
+              <li>Develop repeatable sales methodologies and processes</li>
+              <li>Implement data-driven performance management</li>
+              <li>Create career development and training programs</li>
+            </ul>
+            <div class="results-highlight">
+              <i class="fas fa-trophy"></i>
+              <span>Typical Results: 150% revenue growth, 90%+ retention</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="expertise-card">
+          <div class="expertise-icon">
+            <i class="fas fa-cloud"></i>
+          </div>
+          <h3>Enterprise Solution Architecture</h3>
+          <div class="expertise-details">
+            <h4>What I Do:</h4>
+            <ul>
+              <li>Design scalable, secure enterprise solutions</li>
+              <li>Lead technical evaluations and POCs</li>
+              <li>Develop architecture standards and best practices</li>
+              <li>Ensure solutions meet compliance requirements</li>
+            </ul>
+            <div class="results-highlight">
+              <i class="fas fa-trophy"></i>
+              <span>Typical Results: 99.9% uptime, 30% cost reduction</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="expertise-card">
+          <div class="expertise-icon">
+            <i class="fas fa-handshake"></i>
+          </div>
+          <h3>Strategic Partnership Development</h3>
+          <div class="expertise-details">
+            <h4>What I Do:</h4>
+            <ul>
+              <li>Identify and develop strategic partner relationships</li>
+              <li>Create joint go-to-market strategies</li>
+              <li>Build co-selling and co-marketing programs</li>
+              <li>Establish partner enablement and training</li>
+            </ul>
+            <div class="results-highlight">
+              <i class="fas fa-trophy"></i>
+              <span>Typical Results: $20M+ partner revenue, 50% market expansion</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="expertise-card">
+          <div class="expertise-icon">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <h3>Revenue Operations Excellence</h3>
+          <div class="expertise-details">
+            <h4>What I Do:</h4>
+            <ul>
+              <li>Optimize sales processes and systems</li>
+              <li>Implement forecasting and pipeline management</li>
+              <li>Design performance metrics and dashboards</li>
+              <li>Enable data-driven decision making</li>
+            </ul>
+            <div class="results-highlight">
+              <i class="fas fa-trophy"></i>
+              <span>Typical Results: 92% forecast accuracy, 40% cycle reduction</span>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -117,130 +317,244 @@
     <!-- Approach section -->
     <section id="approach" class="section approach">
       <div class="section-header">
-        <h2>I Transform Technical Sales Organizations</h2>
-        <p>15 years of experience distilled into a proven methodology that consistently delivers measurable results for enterprise organizations.</p>
+        <h2><i class="fas fa-compass"></i> My Approach</h2>
+        <p>A proven methodology that consistently delivers measurable results</p>
       </div>
-      <div class="principles">
+      
+      <div class="approach-principles">
         <div class="principle-card">
+          <div class="principle-icon">
+            <i class="fas fa-target"></i>
+          </div>
           <h4>Outcomes Over Activity</h4>
-          <p>Every initiative must tie directly to measurable business results. I focus on metrics that matter: revenue growth, cost reduction and customer success.</p>
-          <p class="result">Increased average deal size by 40% through value‑based selling methodology</p>
+          <p>Every initiative must tie directly to measurable business results. I focus on metrics that matter: revenue growth, cost reduction, and customer success.</p>
+          <div class="principle-result">
+            <i class="fas fa-arrow-up"></i>
+            <span>Increased average deal size by 40% through value-based selling</span>
+          </div>
         </div>
+
         <div class="principle-card">
+          <div class="principle-icon">
+            <i class="fas fa-heart"></i>
+          </div>
           <h4>People First, Process Second</h4>
-          <p>Technology and processes are only as effective as the people using them. I invest heavily in team development, coaching and creating growth opportunities.</p>
-          <p class="result">Achieved 95% retention rate by implementing career development programs</p>
+          <p>Technology and processes are only as effective as the people using them. I invest heavily in team development, coaching, and growth opportunities.</p>
+          <div class="principle-result">
+            <i class="fas fa-arrow-up"></i>
+            <span>Achieved 95% retention rate through career development programs</span>
+          </div>
         </div>
+
         <div class="principle-card">
+          <div class="principle-icon">
+            <i class="fas fa-lightbulb"></i>
+          </div>
           <h4>Simplify Complex Solutions</h4>
           <p>Enterprise technology is inherently complex, but the value proposition shouldn't be. I excel at translating technical capabilities into clear business benefits.</p>
-          <p class="result">Reduced sales cycle by 33% through simplified solution positioning</p>
+          <div class="principle-result">
+            <i class="fas fa-arrow-up"></i>
+            <span>Reduced sales cycle by 33% through simplified positioning</span>
+          </div>
         </div>
+
         <div class="principle-card">
+          <div class="principle-icon">
+            <i class="fas fa-sync-alt"></i>
+          </div>
           <h4>Iterate and Optimize</h4>
-          <p>The best strategies evolve based on real‑world feedback. I build systems that can adapt, measure performance continuously, and optimize for better results.</p>
-          <p class="result">Improved forecast accuracy from 65% to 92% through data‑driven refinements</p>
+          <p>The best strategies evolve based on real-world feedback. I build systems that adapt, measure performance continuously, and optimize for better results.</p>
+          <div class="principle-result">
+            <i class="fas fa-arrow-up"></i>
+            <span>Improved forecast accuracy from 65% to 92% through data-driven refinements</span>
+          </div>
         </div>
       </div>
-      <div class="framework">
-        <h3>The MM Framework</h3>
+
+      <div class="methodology">
+        <h3><i class="fas fa-cogs"></i> The SCALE Framework</h3>
         <p>My proven approach to technical sales transformation</p>
+        
         <div class="framework-steps">
-          <div class="step">
-            <h4>01&nbsp;&nbsp;Assess & Align</h4>
-            <p>Baseline analysis of current state, stakeholder interviews and success metrics definition.</p>
+          <div class="step-card">
+            <div class="step-number">01</div>
+            <div class="step-content">
+              <h4><i class="fas fa-search"></i> Assess & Align</h4>
+              <p>Comprehensive analysis of current state, stakeholder interviews, and success metrics definition to establish baseline and goals.</p>
+            </div>
           </div>
-          <div class="step">
-            <h4>02&nbsp;&nbsp;Design & Build</h4>
-            <p>Create scalable processes, tools and training programs tailored to your organization.</p>
+
+          <div class="step-card">
+            <div class="step-number">02</div>
+            <div class="step-content">
+              <h4><i class="fas fa-drafting-compass"></i> Design & Build</h4>
+              <p>Create scalable processes, tools, and training programs tailored to your organization's specific needs and market position.</p>
+            </div>
           </div>
-          <div class="step">
-            <h4>03&nbsp;&nbsp;Deploy & Enable</h4>
-            <p>Roll out new approaches with hands‑on coaching and change management support.</p>
+
+          <div class="step-card">
+            <div class="step-number">03</div>
+            <div class="step-content">
+              <h4><i class="fas fa-rocket"></i> Deploy & Enable</h4>
+              <p>Roll out new approaches with hands-on coaching, change management support, and continuous enablement programs.</p>
+            </div>
           </div>
-          <div class="step">
-            <h4>04&nbsp;&nbsp;Measure & Refine</h4>
-            <p>Continuous optimization based on performance data and market feedback.</p>
+
+          <div class="step-card">
+            <div class="step-number">04</div>
+            <div class="step-content">
+              <h4><i class="fas fa-chart-bar"></i> Measure & Refine</h4>
+              <p>Continuous optimization based on performance data, market feedback, and evolving business requirements.</p>
+            </div>
           </div>
         </div>
       </div>
-      <div class="results">
-        <h3>Typical Results</h3>
+
+      <div class="results-showcase">
+        <h3>Proven Results</h3>
         <div class="results-grid">
-          <div><strong>40%</strong><span>Increase in Deal Size</span></div>
-          <div><strong>95%</strong><span>Team Retention Rate</span></div>
-          <div><strong>33%</strong><span>Shorter Sales Cycles</span></div>
-          <div><strong>92%</strong><span>Forecast Accuracy</span></div>
+          <div class="result-item">
+            <i class="fas fa-percentage"></i>
+            <strong>150%</strong>
+            <span>Revenue Growth</span>
+          </div>
+          <div class="result-item">
+            <i class="fas fa-users"></i>
+            <strong>95%</strong>
+            <span>Team Retention</span>
+          </div>
+          <div class="result-item">
+            <i class="fas fa-clock"></i>
+            <strong>40%</strong>
+            <span>Faster Sales Cycles</span>
+          </div>
+          <div class="result-item">
+            <i class="fas fa-bullseye"></i>
+            <strong>92%</strong>
+            <span>Forecast Accuracy</span>
+          </div>
         </div>
-        <a class="btn primary" href="#connect">Let's Discuss Your Goals</a>
+        <div class="results-cta">
+          <a class="btn primary" href="#connect">
+            <i class="fas fa-comments"></i> Let's Discuss Your Goals
+          </a>
+        </div>
       </div>
     </section>
 
     <!-- Connect section -->
     <section id="connect" class="section connect">
       <div class="section-header">
-        <h2>Ready to Transform Your Technical Sales?</h2>
-        <p>Whether you're scaling a team, optimizing processes or exploring new partnerships, I'd love to discuss how we can work together to drive measurable results.</p>
+        <h2><i class="fas fa-handshake"></i> Let's Connect</h2>
+        <p>Ready to scale your technical sales organization? Let's explore how we can work together.</p>
       </div>
-      <div class="help-options">
-        <div class="help-card">
-          <h3>Schedule a Call</h3>
-          <p>Book a 30‑minute conversation to discuss your technical challenges.</p>
-          <a class="btn primary" href="#">Schedule Call</a>
+      
+      <div class="connect-options">
+        <div class="connect-card primary-card">
+          <div class="connect-icon">
+            <i class="fas fa-calendar-alt"></i>
+          </div>
+          <h3>Schedule a Strategy Call</h3>
+          <p>Book a 30-minute conversation to discuss your technical sales challenges and explore potential solutions.</p>
+          <a class="btn primary" href="https://calendly.com/mikemacri" target="_blank">
+            <i class="fas fa-calendar-plus"></i> Book a Call
+          </a>
         </div>
-        <div class="help-card">
+
+        <div class="connect-card">
+          <div class="connect-icon">
+            <i class="fas fa-envelope"></i>
+          </div>
           <h3>Send an Email</h3>
-          <p>Drop me a line with your questions or project details.</p>
-          <a class="btn secondary" href="mailto:your.email@company.com">your.email@company.com</a>
+          <p>Drop me a line with your questions, project details, or just to say hello.</p>
+          <a class="btn secondary" href="mailto:mike@mikemacri.com">
+            <i class="fas fa-paper-plane"></i> mike@mikemacri.com
+          </a>
         </div>
-        <div class="help-card">
+
+        <div class="connect-card">
+          <div class="connect-icon">
+            <i class="fab fa-linkedin"></i>
+          </div>
           <h3>Connect on LinkedIn</h3>
-          <p>Let's connect and stay updated on industry insights.</p>
-          <a class="btn secondary" href="#">Connect on LinkedIn</a>
-        </div>
-        <div class="help-card">
-          <h3>Coffee Chat</h3>
-          <p>In the area? Let's meet in person. I'm always interested in connecting with fellow technical sales leaders, solution architects and entrepreneurs tackling interesting challenges.</p>
+          <p>Let's connect and stay updated on industry insights, best practices, and market trends.</p>
+          <a class="btn secondary" href="https://linkedin.com/in/mikemacri" target="_blank">
+            <i class="fab fa-linkedin"></i> Connect on LinkedIn
+          </a>
         </div>
       </div>
-      <div class="resources">
-        <h3>Free Resources</h3>
-        <p>Tools and insights to help you get started</p>
-        <div class="resource-cards">
+
+      <div class="resources-section">
+        <h3><i class="fas fa-gift"></i> Free Resources</h3>
+        <p>Tools and insights to help you get started on your technical sales journey</p>
+        
+        <div class="resources-grid">
           <div class="resource-card">
-            <h4>Technical Sales Framework</h4>
-            <p>A comprehensive guide for building high‑performing technical sales teams.</p>
-            <a href="#" class="link">Learn More</a>
+            <div class="resource-icon">
+              <i class="fas fa-book"></i>
+            </div>
+            <h4>Technical Sales Playbook</h4>
+            <p>A comprehensive guide for building high-performing technical sales teams, including frameworks, templates, and best practices.</p>
+            <a href="https://mikemacri.com/playbook" class="resource-link">
+              <i class="fas fa-download"></i> Download Free
+            </a>
           </div>
+
           <div class="resource-card">
-            <h4>Industry Meetups</h4>
-            <p>Regular gatherings of technical sales leaders and solution architects.</p>
-            <a href="#" class="link">Learn More</a>
+            <div class="resource-icon">
+              <i class="fas fa-users"></i>
+            </div>
+            <h4>Technical Sales Community</h4>
+            <p>Join a community of technical sales leaders, solution architects, and revenue operations professionals.</p>
+            <a href="https://mikemacri.com/community" class="resource-link">
+              <i class="fas fa-users"></i> Join Community
+            </a>
           </div>
+
           <div class="resource-card">
+            <div class="resource-icon">
+              <i class="fas fa-newspaper"></i>
+            </div>
             <h4>Weekly Newsletter</h4>
-            <p>Industry insights and best practices delivered every week.</p>
-            <a href="#" class="link">Learn More</a>
+            <p>Industry insights, best practices, and actionable strategies delivered to your inbox every Tuesday.</p>
+            <a href="https://mikemacri.com/newsletter" class="resource-link">
+              <i class="fas fa-envelope-open"></i> Subscribe
+            </a>
           </div>
         </div>
       </div>
-      <div class="final-cta">
-        <h3>Let's Build Something Great Together</h3>
-        <p>Every successful transformation starts with a conversation. I'd love to learn about your challenges and explore how we can work together.</p>
-        <a class="btn primary" href="#">Start the Conversation</a>
+
+      <div class="final-message">
+        <div class="message-content">
+          <h3>Ready to Transform Your Technical Sales Organization?</h3>
+          <p>Every successful transformation starts with a conversation. I'd love to learn about your challenges and explore how we can work together to drive measurable results.</p>
+          <a class="btn primary large" href="https://calendly.com/mikemacri" target="_blank">
+            <i class="fas fa-rocket"></i> Start the Conversation
+          </a>
+        </div>
       </div>
     </section>
   </main>
 
   <footer class="footer">
-    <div class="footer-left">YN</div>
-    <div class="footer-center">© 2025 Your Name. Crafted with purpose.</div>
-    <div class="footer-right">
-      <a href="mailto:your.email@company.com">Email</a>
-      <a href="#">LinkedIn</a>
-      <a href="#">Resume</a>
+    <div class="footer-content">
+      <div class="footer-left">
+        <img src="https://mikemacri.com/assets/mike-macri-logo.png" alt="Mike Macri" class="footer-logo"/>
+        <p>Technical Sales Leader & Solution Architect</p>
+      </div>
+      <div class="footer-center">
+        <p>© 2025 Mike Macri. Building the future of technical sales.</p>
+      </div>
+      <div class="footer-right">
+        <div class="footer-links">
+          <a href="mailto:mike@mikemacri.com"><i class="fas fa-envelope"></i> Email</a>
+          <a href="https://linkedin.com/in/mikemacri" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+          <a href="https://mikemacri.com/resume" target="_blank"><i class="fas fa-file-alt"></i> Resume</a>
+        </div>
+      </div>
     </div>
   </footer>
+  
   <script src="script.js"></script>
   <script type="module" src="scrollspy.js"></script>
 </body>
