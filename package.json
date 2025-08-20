@@ -1,0 +1,20 @@
+{
+  "name": "mike-macri-portfolio",
+  "version": "1.0.0",
+  "description": "Mike Macri - Technical Sales Leader & Solution Architect Portfolio",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python -m http.server 8000",
+    "start": "python -m http.server 8000"
+  },
+  "keywords": [
+    "portfolio",
+    "technical-sales",
+    "solution-architect",
+    "revenue-operations"
+  ],
+  "author": "Mike Macri",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {}
+}
